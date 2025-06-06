@@ -1,0 +1,5 @@
+n = map(int, input().split())
+l = list(set(map(int, input().split())))
+l.sort()
+print(len(l))
+print(' '.join([str(x) for x in l]))
